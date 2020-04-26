@@ -1,0 +1,243 @@
+.
+├── sailfish
+│   ├── Android.mk
+│   ├── device-vendor-sailfish.mk
+│   ├── proprietary
+│   │   ├── app
+│   │   │   └── VZWAPNLib
+│   │   │       └── VZWAPNLib.apk
+│   │   ├── bin
+│   │   │   ├── mct-unit-test-app
+│   │   │   ├── pktlogconf
+│   │   │   ├── qmi_simple_ril_test
+│   │   │   ├── test_bet_8996
+│   │   │   └── test_module_pproc
+│   │   ├── etc
+│   │   │   ├── cne
+│   │   │   │   └── Nexus
+│   │   │   │       ├── ATT
+│   │   │   │       │   └── ATT_profiles.xml
+│   │   │   │       ├── ROW
+│   │   │   │       │   └── ROW_profiles.xml
+│   │   │   │       └── VZW
+│   │   │   │           └── VZW_profiles.xml
+│   │   │   ├── old-apns-conf.xml
+│   │   │   ├── permissions
+│   │   │   │   ├── com.android.omadm.service.xml
+│   │   │   │   ├── com.android.sdm.plugins.connmo.xml
+│   │   │   │   ├── com.android.sdm.plugins.sprintdm.xml
+│   │   │   │   ├── com.android.vzwomatrigger.xml
+│   │   │   │   ├── com.customermobile.preload.vzw.xml
+│   │   │   │   ├── com.verizon.apn.xml
+│   │   │   │   ├── com.verizon.embms.xml
+│   │   │   │   ├── com.verizon.llkagent.xml
+│   │   │   │   ├── com.verizon.provider.xml
+│   │   │   │   ├── com.verizon.services.xml
+│   │   │   │   ├── features-verizon.xml
+│   │   │   │   ├── obdm_permissions.xml
+│   │   │   │   ├── privapp-permissions-google.xml
+│   │   │   │   ├── privapp-permissions-marlin.xml
+│   │   │   │   └── vzw_mvs_permissions.xml
+│   │   │   └── sysconfig
+│   │   │       ├── google_build.xml
+│   │   │       ├── google.xml
+│   │   │       ├── marlin_common.xml
+│   │   │       ├── nexus.xml
+│   │   │       └── whitelist_com.android.omadm.service.xml
+│   │   ├── framework
+│   │   │   └── VerizonUnifiedSettings.jar
+│   │   ├── lib
+│   │   │   ├── libaptX_encoder.so
+│   │   │   ├── libaptXHD_encoder.so
+│   │   │   ├── libdmengine.so
+│   │   │   ├── libdmjavaplugin.so
+│   │   │   ├── lib-imsvideocodec.so
+│   │   │   ├── lib-imsvtextutils.so
+│   │   │   ├── lib-imsvt.so
+│   │   │   ├── lib-imsvtutils.so
+│   │   │   └── librcc.so
+│   │   ├── lib64
+│   │   │   ├── libaptX_encoder.so
+│   │   │   ├── libaptXHD_encoder.so
+│   │   │   ├── lib-imsvideocodec.so
+│   │   │   ├── lib-imsvtextutils.so
+│   │   │   ├── lib-imsvt.so
+│   │   │   ├── lib-imsvtutils.so
+│   │   │   └── librcc.so
+│   │   └── priv-app
+│   │       ├── AppDirectedSMSService
+│   │       │   └── AppDirectedSMSService.apk
+│   │       ├── Asdiv
+│   │       │   └── Asdiv.apk
+│   │       ├── CarrierSetup
+│   │       │   └── CarrierSetup.apk
+│   │       ├── CNEService
+│   │       │   └── CNEService.apk
+│   │       ├── ConnMO
+│   │       │   └── ConnMO.apk
+│   │       ├── DCMO
+│   │       │   └── DCMO.apk
+│   │       ├── DiagMon
+│   │       │   └── DiagMon.apk
+│   │       ├── DMService
+│   │       │   └── DMService.apk
+│   │       ├── HotwordEnrollmentOKGoogleWCD9335
+│   │       │   └── HotwordEnrollmentOKGoogleWCD9335.apk
+│   │       ├── HotwordEnrollmentTGoogleWCD9335
+│   │       │   └── HotwordEnrollmentTGoogleWCD9335.apk
+│   │       ├── HotwordEnrollmentXGoogleWCD9335
+│   │       │   └── HotwordEnrollmentXGoogleWCD9335.apk
+│   │       ├── LLKAgent
+│   │       │   └── LLKAgent.apk
+│   │       ├── MyVerizonServices
+│   │       │   ├── lib
+│   │       │   │   └── arm64
+│   │       │   │       └── libmotricity.so
+│   │       │   └── MyVerizonServices.apk
+│   │       ├── OBDM_Permissions
+│   │       │   └── OBDM_Permissions.apk
+│   │       ├── obdm_stub
+│   │       │   └── obdm_stub.apk
+│   │       ├── OemDmTrigger
+│   │       │   └── OemDmTrigger.apk
+│   │       ├── qcrilmsgtunnel
+│   │       │   └── qcrilmsgtunnel.apk
+│   │       ├── SprintDM
+│   │       │   └── SprintDM.apk
+│   │       ├── SprintHM
+│   │       │   └── SprintHM.apk
+│   │       ├── TetheringEntitlement
+│   │       │   └── TetheringEntitlement.apk
+│   │       ├── VerizonAuthDialog
+│   │       │   └── VerizonAuthDialog.apk
+│   │       ├── VzwOmaTrigger
+│   │       │   └── VzwOmaTrigger.apk
+│   │       └── WfcActivation
+│   │           └── WfcActivation.apk
+│   └── sailfish-vendor-blobs.mk
+├── taimen
+│   ├── Android.mk
+│   ├── proprietary
+│   │   ├── app
+│   │   │   ├── embms
+│   │   │   │   └── embms.apk
+│   │   │   ├── ims
+│   │   │   │   └── ims.apk
+│   │   │   ├── QAS_DVC_MSP_VZW
+│   │   │   │   └── QAS_DVC_MSP_VZW.apk
+│   │   │   ├── VZWAPNLib
+│   │   │   │   └── VZWAPNLib.apk
+│   │   │   └── vzw_msdc_api
+│   │   │       └── vzw_msdc_api.apk
+│   │   ├── bin
+│   │   │   └── ramoops
+│   │   ├── device-vendor.mk
+│   │   ├── etc
+│   │   │   ├── cne
+│   │   │   │   └── Nexus
+│   │   │   │       ├── ATT
+│   │   │   │       │   └── ATT_profiles.xml
+│   │   │   │       ├── ROW
+│   │   │   │       │   └── ROW_profiles.xml
+│   │   │   │       └── VZW
+│   │   │   │           └── VZW_profiles.xml
+│   │   │   ├── firmware
+│   │   │   │   ├── dnd.descriptor
+│   │   │   │   ├── dnd.sound_model
+│   │   │   │   ├── music_detector.descriptor
+│   │   │   │   └── music_detector.sound_model
+│   │   │   ├── permissions
+│   │   │   │   ├── android.hardware.telephony.euicc.xml
+│   │   │   │   ├── com.android.omadm.service.xml
+│   │   │   │   ├── com.android.sdm.plugins.connmo.xml
+│   │   │   │   ├── com.android.sdm.plugins.sprintdm.xml
+│   │   │   │   ├── com.android.vzwomatrigger.xml
+│   │   │   │   ├── com.customermobile.preload.vzw.xml
+│   │   │   │   ├── com.google.android.camera.experimental2017.xml
+│   │   │   │   ├── com.google.android.hardwareinfo.xml
+│   │   │   │   ├── com.verizon.apn.xml
+│   │   │   │   ├── com.verizon.embms.xml
+│   │   │   │   ├── com.verizon.llkagent.xml
+│   │   │   │   ├── com.verizon.provider.xml
+│   │   │   │   ├── com.verizon.services.xml
+│   │   │   │   ├── features-verizon.xml
+│   │   │   │   ├── obdm_permissions.xml
+│   │   │   │   ├── privapp-permissions-google.xml
+│   │   │   │   ├── privapp-permissions-wahoo.xml
+│   │   │   │   └── vzw_mvs_permissions.xml
+│   │   │   └── sysconfig
+│   │   │       ├── framework-sysconfig.xml
+│   │   │       ├── google_build.xml
+│   │   │       ├── google_vr_build.xml
+│   │   │       ├── google.xml
+│   │   │       ├── nexus.xml
+│   │   │       ├── pixel_2017_exclusive.xml
+│   │   │       ├── pixel_2017.xml
+│   │   │       └── whitelist_com.android.omadm.service.xml
+│   │   ├── framework
+│   │   │   ├── cneapiclient.jar
+│   │   │   ├── com.google.android.camera.experimental2017.jar
+│   │   │   ├── com.quicinc.cne.api-V1.0-java.jar
+│   │   │   ├── com.quicinc.cne.jar
+│   │   │   ├── embmslibrary.jar
+│   │   │   ├── libhwinfo.jar
+│   │   │   ├── rcsimssettings.jar
+│   │   │   ├── vendor.qti.qcril.am-V1.0-java.jar
+│   │   │   └── VerizonUnifiedSettings.jar
+│   │   ├── lib
+│   │   │   ├── com.qualcomm.qti.imsrtpservice@1.0.so
+│   │   │   ├── libdiag_system.so
+│   │   │   ├── libeaselcomm.so
+│   │   │   ├── libimscamera_jni.so
+│   │   │   ├── libimsmedia_jni.so
+│   │   │   ├── lib-imsvideocodec.so
+│   │   │   ├── lib-imsvtextutils.so
+│   │   │   ├── lib-imsvt.so
+│   │   │   ├── lib-imsvtutils.so
+│   │   │   └── librcc.so
+│   │   ├── lib64
+│   │   │   ├── com.qualcomm.qti.imsrtpservice@1.0.so
+│   │   │   ├── libaptX_encoder.so
+│   │   │   ├── libaptXHD_encoder.so
+│   │   │   ├── libdiag_system.so
+│   │   │   ├── libeaselcomm.so
+│   │   │   ├── libimscamera_jni.so
+│   │   │   ├── libimsmedia_jni.so
+│   │   │   ├── lib-imsvideocodec.so
+│   │   │   ├── lib-imsvtextutils.so
+│   │   │   ├── lib-imsvt.so
+│   │   │   ├── lib-imsvtutils.so
+│   │   │   └── librcc.so
+│   │   └── priv-app
+│   │       ├── CNEService
+│   │       │   └── CNEService.apk
+│   │       ├── datastatusnotification
+│   │       │   └── datastatusnotification.apk
+│   │       ├── ModemService
+│   │       │   └── ModemService.apk
+│   │       ├── MyVerizonServices
+│   │       │   ├── lib
+│   │       │   │   └── arm64
+│   │       │   │       └── libmotricity.so
+│   │       │   └── MyVerizonServices.apk
+│   │       ├── OBDM_Permissions
+│   │       │   └── OBDM_Permissions.apk
+│   │       ├── obdm_stub
+│   │       │   └── obdm_stub.apk
+│   │       ├── OemDmTrigger
+│   │       │   └── OemDmTrigger.apk
+│   │       ├── QAS_DVC_MSP
+│   │       │   └── QAS_DVC_MSP.apk
+│   │       ├── qcrilmsgtunnel
+│   │       │   └── qcrilmsgtunnel.apk
+│   │       ├── SprintDM
+│   │       │   └── SprintDM.apk
+│   │       ├── SprintHM
+│   │       │   └── SprintHM.apk
+│   │       ├── VerizonAuthDialog
+│   │       │   └── VerizonAuthDialog.apk
+│   │       └── VzwOmaTrigger
+│   │           └── VzwOmaTrigger.apk
+│   └── taimen-vendor-blobs.mk
+└── vendor-google_devices
+
